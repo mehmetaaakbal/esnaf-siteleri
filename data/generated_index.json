@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Ataşehir Elektrikçi Devran",
+    "phone": "+90 538 026 75 75",
+    "slug": "atasehir-elektrikci-devran",
+    "has_existing_website": true,
+    "existing_website": "https://www.devranelektrik.com/"
+  },
+  {
+    "name": "Art Of Elektrik",
+    "phone": "+90 532 302 65 97",
+    "slug": "art-of-elektrik",
+    "has_existing_website": true,
+    "existing_website": "https://artofelektrik.com/"
+  },
+  {
+    "name": "Ataşehir Elektrikçi Ustası",
+    "phone": "+90 539 749 60 36",
+    "slug": "atasehir-elektrikci-ustasi",
+    "has_existing_website": true,
+    "existing_website": "http://atasehirelektrikiustasi.com/"
+  },
+  {
+    "name": "ŞATIROĞLU ELEKTRİK",
+    "phone": "+90 535 777 32 19",
+    "slug": "satiroglu-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Ataşehir Uydu ve Elektrik servisi",
+    "phone": "+90 533 744 95 65",
+    "slug": "atasehir-uydu-ve-elektrik-servisi",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Elektrikçi",
+    "phone": "+90 216 470 98 14",
+    "slug": "elektrikci",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Çelik Elektrik Elektrikci Ataşehir Elektrik",
+    "phone": "+90 535 622 94 75",
+    "slug": "celik-elektrik-elektrikci-atasehir-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "ATAŞEHİR ÇÖZÜM ELEKTRİK ELEKTRONİK UYDU SERVİSİ",
+    "phone": "+90 533 311 81 91",
+    "slug": "atasehir-cozum-elektrik-elektronik-uydu-servisi",
+    "has_existing_website": true,
+    "existing_website": "https://atasehiruyduelektrik.com/"
+  },
+  {
+    "name": "Asır Elektrik",
+    "phone": "+90 544 154 93 24",
+    "slug": "asir-elektrik",
+    "has_existing_website": true,
+    "existing_website": "https://www.atasehirelektrikci.net/"
+  },
+  {
+    "name": "ACL ELEKTRİK",
+    "phone": "+90 530 589 40 79",
+    "slug": "acl-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "ATAŞEHİR ELEKTRİKÇİ UYDU İNTERNET APAYDIN ELEKTRİK",
+    "phone": "+90 538 502 86 34",
+    "slug": "atasehir-elektrikci-uydu-internet-apaydin-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Özgür Elektrik",
+    "phone": "+90 533 455 78 23",
+    "slug": "ozgur-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Atasehir Esatpaşa Ümraniye Kadiköy anadolu yakası Elektrikci Özgüven Elektrik",
+    "phone": "+90 532 275 68 62",
+    "slug": "atasehir-esatpasa-umraniye-kadikoy-anadolu-yakasi-elektrikci-ozguven-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Arke Elektrik",
+    "phone": "+90 532 453 76 75",
+    "slug": "arke-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Elektrikçi Ataşehir",
+    "phone": "+90 552 096 83 22",
+    "slug": "elektrikci-atasehir",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Alan Elektrik",
+    "phone": "+90 532 278 25 51",
+    "slug": "alan-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Alperdem Elektrik",
+    "phone": "",
+    "slug": "alperdem-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "Altay Elektrİk",
+    "phone": "+90 216 573 47 57",
+    "slug": "altay-elektrik",
+    "has_existing_website": true,
+    "existing_website": "http://www.altayelektrik.com/"
+  },
+  {
+    "name": "Fetih Elektrikçi Gül Elektrik",
+    "phone": "+90 216 235 12 31",
+    "slug": "fetih-elektrikci-gul-elektrik",
+    "has_existing_website": false,
+    "existing_website": ""
+  },
+  {
+    "name": "BE-HA TEKNİK ELEKTRİK YAPI VE İNŞAAT",
+    "phone": "+90 547 052 61 34",
+    "slug": "be-ha-teknik-elektrik-yapi-ve-insaat",
+    "has_existing_website": true,
+    "existing_website": "https://wa.me/05470526134"
+  }
+]
