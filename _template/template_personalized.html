@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ŞATIROĞLU ELEKTRİK | Elektrikçi</title>
-<meta name="description" content="ŞATIROĞLU ELEKTRİK - Barbaros, 34000 Ataşehir/İstanbul, Türkiye. Hemen arayın: +90 535 777 32 19">
+<title>{{FIRMA_ADI}} | {{KATEGORI}}</title>
+<meta name="description" content="{{FIRMA_ADI}} - {{ADRES}}. Hemen arayın: {{TELEFON}}">
 <style>
   :root{
-    --primary:#1a56db;
-    --primary-dark:#1442ad;
+    --primary:{{PRIMARY_COLOR}};
+    --primary-dark:{{PRIMARY_DARK}};
     --dark:#111827;
     --gray:#6b7280;
     --light:#f9fafb;
@@ -42,22 +42,17 @@
 </head>
 <body>
 <header>
-  <h1>ŞATIROĞLU ELEKTRİK</h1>
-  <p class="meta">Elektrikçi · Barbaros, 34000 Ataşehir/İstanbul, Türkiye</p>
-  <p class="slogan">Ataşehir'de dürüst fiyat, hızlı çözüm: Şatıroğlu Elektrik yanınızda.</p>
-  <a class="call-btn" href="tel:+905357773219">📞 Hemen Ara: +90 535 777 32 19</a>
+  <h1>{{FIRMA_ADI}}</h1>
+  <p class="meta">{{KATEGORI}} · {{ADRES}}</p>
+  <p class="slogan">{{SLOGAN}}</p>
+  <a class="call-btn" href="tel:{{TELEFON_RAW}}">📞 Hemen Ara: {{TELEFON}}</a>
 </header>
 
 <main>
   <section>
     <h2>Hizmetlerimiz</h2>
     <div class="services">
-      <div class="service-item">Ev & İşyeri Elektrik Tesisatı</div>
-      <div class="service-item">Arıza Tespiti & Onarım</div>
-      <div class="service-item">Aydınlatma Sistemleri</div>
-      <div class="service-item">Pano & Sigorta Montajı</div>
-      <div class="service-item">Acil Elektrikçi Hizmeti</div>
-      <div class="service-item">Bakım & Periyodik Kontrol</div>
+{{SERVICES_HTML}}
     </div>
   </section>
 
@@ -65,7 +60,7 @@
     <h2>Neden Biz?</h2>
     <div class="trust-card">
       <span>⭐</span>
-      <span>5/5 puan — 1 Google değerlendirmesi ile doğrulanmış işletme</span>
+      <span>{{TRUST_LINE}}</span>
     </div>
   </section>
 
@@ -74,22 +69,22 @@
     <div class="contact-card">
       <div class="contact-row">
         <span class="icon">📞</span>
-        <a href="tel:+905357773219">+90 535 777 32 19</a>
+        <a href="tel:{{TELEFON_RAW}}">{{TELEFON}}</a>
       </div>
       <div class="contact-row">
         <span class="icon">📍</span>
-        <span>Barbaros, 34000 Ataşehir/İstanbul, Türkiye</span>
+        <span>{{ADRES}}</span>
       </div>
     </div>
   </section>
 </main>
 
 <div class="sticky-call">
-  <a href="tel:+905357773219">📞 Ara ve Randevu Al — +90 535 777 32 19</a>
+  <a href="tel:{{TELEFON_RAW}}">📞 Ara ve Randevu Al — {{TELEFON}}</a>
 </div>
 
 <footer>
-  &copy; 2026 ŞATIROĞLU ELEKTRİK. Tüm hakları saklıdır.
+  &copy; {{YIL}} {{FIRMA_ADI}}. Tüm hakları saklıdır.
 </footer>
 </body>
 </html>
