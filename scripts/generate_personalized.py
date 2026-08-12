@@ -115,6 +115,12 @@ SERVICE_AREA = {
 }
 DEFAULT_SERVICE_AREA = "Ataşehir ve çevresine hizmet veriyoruz."
 
+# Apify scrape occasionally leaks raw coordinates into the street field.
+# Manual overrides for addresses that render broken.
+ADDRESS_OVERRIDES = {
+    "elektrikci-atasehir": "Ferhatpaşa, 34758 Ataşehir/İstanbul, Türkiye",
+}
+
 
 def build_services(name: str, categories: list[str]) -> list[tuple[str, str]]:
     services = list(BASE_SERVICES)
@@ -193,7 +199,7 @@ def main():
 
         phone = (item.get("phone") or "").strip()
         phone_raw = (item.get("phoneUnformatted") or phone).strip()
-        address = (item.get("address") or "").strip()
+        address = ADDRESS_OVERRIDES.get(slug, (item.get("address") or "").strip())
         category = (item.get("categoryName") or "Elektrikçi").strip()
         categories = item.get("categories") or []
         score = item.get("totalScore")
