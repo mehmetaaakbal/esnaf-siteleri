@@ -138,5 +138,13 @@
     "slug": "kadikoy-kardesler-elektrik-suadiye-caddebostan-altintepe-kucukyali-ariza-servisi",
     "has_existing_website": true,
     "existing_website": "http://kardeslerelektrikbostanci.com/"
+  },
+  {
+    "name": "Kozyatağı Elektrikçi Yılmaz Elektrik",
+    "phone": "+90 536 200 84 82",
+    "slug": "kadikoy-kozyatagi-yilmaz-elektrik",
+    "has_existing_website": false,
+    "existing_website": "",
+    "source": "manual_web_search_user_confirmed"
   }
 ]
